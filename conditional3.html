@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Conditional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="hasilflex.html">Hasil Flex Box</a>
+    <div class="dropdown">
+      <button class="dropbtn">JS-Introduction 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Exintoduc.html">Exercise</a>
+      </div>
+    </div> 
+
+    <div class="dropdown">  
+        <button class="dropbtn">JS-Conditional 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Excon.html">Exercise</a>
+        </div>
+    </div>
+
+        <div class="dropdown">      
+            <button class="dropbtn">JS-Looping 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Exloop.html">Exercise</a>
+            </div>
+        </div>
+  </div>
+    <h2>Conditional Exercise No 3</h2>
+
+<button onclick="myFunction()"><h3>Lihat Hasil</h3></button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var namaHari = prompt("Masukkan angka 1-7 untuk mengetahui nama hari : ");
+  switch(namaHari){
+    case "1" : { alert('Hari ke-1 adalah hari Minggu'); break;}
+    case "2" : { alert('Hari ke-2 adalah hari Senin'); break;}
+    case "3" : { alert('Hari ke-3 adalah hari Selasa'); break;}
+    case "4" : { alert('Hari ke-4 adalah hari Rabu'); break;}
+    case "5" : { alert('Hari ke-5 adalah hari Kamis'); break;}
+    case "6" : { alert('Hari ke-6 adalah hari Jumat'); break;}
+    case "7" : { alert('Hari ke-7 adalah hari Sabtu'); break;}
+    default : {alert('Maaf angka yang anda masukkan salah')}
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Introduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="hasilflex.html">Hasil Flex Box</a>
+        <div class="dropdown">
+          <button class="dropbtn">JS-Introduction 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Exintoduc.html">Exercise</a>
+          </div>
+        </div> 
+
+        <div class="dropdown">  
+            <button class="dropbtn">JS-Conditional 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Excon.html">Exercise</a>
+            </div>
+        </div>
+
+            <div class="dropdown">      
+                <button class="dropbtn">JS-Looping 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Exloop.html">Exercise</a>
+                </div>
+            </div>
+      </div>
+    <h2>Introduction Exercise No 6</h2>
+    <table>
+      <tr>
+        <td>1.</td>
+        <td>25 + 10</td>
+        <td>=</td>
+        <td><button onclick="jmlh()">Hasil Penjumlahan</button></td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>100 * 2</td>
+        <td>=</td>
+        <td><button onclick="kali()">Hasil Perkalian</button></td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>99 / 2</td>
+        <td>=</td>
+        <td><button onclick="bagi()">Hasil Pembagian</button></td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>99 % 2</td>
+        <td>=</td>
+        <td><button onclick="sisa()">Hasil Sisa Bagi</button></td>
+      </tr>
+    </table>
+
+   <p id="demo"></p>
+        <script>
+          function jmlh() {
+            var a = 25;
+            var b = 10;
+            var hasil = a + b;
+            alert('Hasil Penjumlahan sama dengan' + ' ' + hasil);
+          }
+        </script>
+
+<script>
+  function kali() {
+    var a = 100;
+    var b = 2;
+    var hasil = a * b;
+    alert('Hasil Perkalian sama dengan' + ' ' + hasil);
+  }
+  </script>
+
+<script>
+  function bagi() {
+    var a = 99;
+    var b = 2;
+    var hasil = a / b;
+    alert('Hasil Pembagian sama dengan' + ' ' + hasil);
+  }
+  </script>
+
+<script>
+  function sisa() {
+    var a = 99;
+    var b = 2;
+    var hasil = a % b;
+    alert('Hasil Sisa Bagi sama dengan' + ' ' + hasil);
+  }
+  </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Introduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="hasilflex.html">Hasil Flex Box</a>
+        <div class="dropdown">
+          <button class="dropbtn">JS-Introduction 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Exintoduc.html">Exercise</a>
+          </div>
+        </div> 
+
+        <div class="dropdown">  
+            <button class="dropbtn">JS-Conditional 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Excon.html">Exercise</a>
+            </div>
+        </div>
+
+            <div class="dropdown">      
+                <button class="dropbtn">JS-Looping 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Exloop.html">Exercise</a>
+                </div>
+            </div>
+      </div>
+    <h2>Introduction Exercise No 2</h2>
+    <button onclick="myFunction()"><h3>Lihat Hasil</h3></button>
+
+<p id="demo"></p>
+    <script>
+      function myFunction() {
+        var nama = prompt("Nama Anda : ");
+        var asal = prompt("Asal Negara : ");
+        var konvirmasi = confirm("Apakah Data yang Anda Masukkan Sudah Benar?");
+        if (konvirmasi == true){
+          alert("Terimakasih sudah mengisi form");
+        }else{
+          alert("Silahkan klik Try it kembali");
+        }
+      }
+      </script>
+</body>
+</html>
